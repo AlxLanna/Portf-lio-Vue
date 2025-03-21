@@ -29,8 +29,8 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* display: flex;
+  place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -82,3 +82,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* destacar link selecionado */
+.router-link-active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+/* ul {
+  display: block;
+} */
